@@ -1,0 +1,36 @@
+{
+    "people": [
+        {
+            "id": "person_9874637819",
+            "firstName": "Алексей",
+            "lastName": "Иванов",
+            "birthDate": "1980-05-12",
+            "gender": "male",
+            "parents":[],
+            "children": ["person_1234567890"],
+            "siblings": [],
+            "spouse": [],
+            "media": [{
+                "type": "photo",
+                "url": "http://example.com/photos/alexey.jpg",
+                "description": "Алексей на семейном празднике"
+            }]  
+      },
+        {
+            "id": "person_1234567890",
+            "firstName": "Мария",
+            "lastName": "Иванова",
+            "birthDate": "2000-09-23",
+            "gender": "female",
+            "parents": ["person_9874637819"],
+            "children": [],
+            "siblings": [],
+            "spouse": [],
+            "media": [{
+                "type": "photo",
+                "url": "http://example.com/photos/maria.jpg",
+                "description": "Мария на выпускном"
+            }]  
+      }
+    ]
+}
