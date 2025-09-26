@@ -52,24 +52,43 @@ An interactive Unity application for visualizing and editing family relationship
 
 ---
 
-📦 Roadmap
+## 📦 Roadmap
 
-• Add UI for node editing and creation
-• Support for media (photos, audio, video)
-• Auto-layout tree by generation levels
-• GEDCOM import/export support
+### 🎨 Visualization
+- [ ] Auto-layout nodes by generation and relationships
+- [ ] Render lines between parents, children, and siblings (`LineRenderer`)
+- [ ] Support zooming and panning across the tree
+- [ ] Rotate nodes toward the camera for better readability
+
+### 🧠 Logic & Architecture
+- [ ] Expand `Person` model (gender, photo, ID, relationships)
+- [ ] Support unique time-stamped IDs for traceability
+- [ ] Build tree from JSON with dynamic relationship mapping
+- [ ] Add GEDCOM import/export support (future)
+
+### 🖱️ UI & Interaction
+- [ ] Clickable nodes with edit popup window
+- [ ] Add/remove nodes via interface
+- [ ] Validate input (e.g. unique IDs, required fields)
+- [ ] Display media (photos, audio, video) on node click
+
+### 💾 Data & Versioning
+- [ ] Save changes to JSON in `StreamingAssets`
+- [ ] Support multiple tree versions (e.g. by date or branch)
+- [ ] Integrate Git for tracking tree history
 
 
 ---
 
-🧠 Author
+## 🧠 Author
 
-Developed by LimonPark
-Architectural mindset, modular logic, and scalable design principles
+Developed by [Limon Park](https://github.com/LimonPark)  
+Architectural mindset, modular logic, and scalable design principles.  
+Focused on clarity, traceability, and deep understanding of data-driven systems.
 
 ---
 
-📜 License
+## 📜 License
 
 MIT — free to use and modify
 
